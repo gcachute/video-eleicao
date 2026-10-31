@@ -1,0 +1,778 @@
+{
+ "video": [
+  {
+   "item": "Lula no resultado final",
+   "video": "51,8%",
+   "calculado": "51,78%",
+   "igual": true,
+   "diferenca": ""
+  },
+  {
+   "item": "Flávio no resultado final",
+   "video": "48,2%",
+   "calculado": "48,22%",
+   "igual": true,
+   "diferenca": ""
+  },
+  {
+   "item": "Hora da última urna",
+   "video": "23h21",
+   "calculado": "23h21",
+   "igual": true,
+   "diferenca": ""
+  },
+  {
+   "item": "Quem abre na frente",
+   "video": "Lula",
+   "calculado": "Lula, 52,7% com 1% das urnas",
+   "igual": true,
+   "diferenca": ""
+  },
+  {
+   "item": "Lula com 4,4% das urnas",
+   "video": "51,2%",
+   "calculado": "51,18%",
+   "igual": true,
+   "diferenca": ""
+  },
+  {
+   "item": "Flávio com 4,4% das urnas",
+   "video": "48,8%",
+   "calculado": "48,82%",
+   "igual": true,
+   "diferenca": ""
+  },
+  {
+   "item": "Maior percentual de Flávio depois de virar",
+   "video": "50,5%",
+   "calculado": "50,52%",
+   "igual": true,
+   "diferenca": ""
+  },
+  {
+   "item": "Hora em que 4,4% das urnas tinham chegado",
+   "video": "19h26",
+   "calculado": "19h26",
+   "igual": true,
+   "diferenca": ""
+  },
+  {
+   "item": "Hora em que 6,0% das urnas tinham chegado",
+   "video": "19h30",
+   "calculado": "19h30",
+   "igual": true,
+   "diferenca": ""
+  },
+  {
+   "item": "Hora em que 13,6% das urnas tinham chegado",
+   "video": "19h44",
+   "calculado": "19h44",
+   "igual": true,
+   "diferenca": ""
+  },
+  {
+   "item": "Hora em que 45,1% das urnas tinham chegado",
+   "video": "20h22",
+   "calculado": "20h22",
+   "igual": true,
+   "diferenca": ""
+  },
+  {
+   "item": "Hora em que 45,6% das urnas tinham chegado",
+   "video": "20h22",
+   "calculado": "20h22",
+   "igual": true,
+   "diferenca": ""
+  },
+  {
+   "item": "Hora em que 50,1% das urnas tinham chegado",
+   "video": "20h26",
+   "calculado": "20h26",
+   "igual": true,
+   "diferenca": ""
+  },
+  {
+   "item": "Hora em que 94,1% das urnas tinham chegado",
+   "video": "21h05",
+   "calculado": "21h05",
+   "igual": true,
+   "diferenca": ""
+  },
+  {
+   "item": "Hora em que Flávio passa à frente",
+   "video": "19h44",
+   "calculado": "19h44",
+   "igual": true,
+   "diferenca": ""
+  },
+  {
+   "item": "Urnas apuradas quando Flávio passa à frente",
+   "video": "13,6%",
+   "calculado": "13,54%",
+   "igual": false,
+   "diferenca": "−0,1 ponto"
+  },
+  {
+   "item": "Hora em que Lula volta à frente",
+   "video": "20h23",
+   "calculado": "20h23",
+   "igual": true,
+   "diferenca": ""
+  },
+  {
+   "item": "Urnas apuradas quando Lula volta à frente",
+   "video": "47%",
+   "calculado": "47,2%",
+   "igual": true,
+   "diferenca": ""
+  },
+  {
+   "item": "Trocas de liderança, com a regra desta tela",
+   "video": "2",
+   "calculado": "2",
+   "igual": true,
+   "diferenca": ""
+  },
+  {
+   "item": "Trocas de liderança, contando urna a urna, desde a primeira",
+   "video": "2",
+   "calculado": "23",
+   "igual": false,
+   "diferenca": "7 trocas antes de 1% das urnas e 16 em vai e volta de poucas urnas em torno das 2 viradas"
+  },
+  {
+   "item": "Sul: votos já apurados com 6,0% das urnas",
+   "video": "10%",
+   "calculado": "9,7%",
+   "igual": true,
+   "diferenca": ""
+  },
+  {
+   "item": "Centro-Oeste: votos já apurados com 6,0% das urnas",
+   "video": "12%",
+   "calculado": "12,3%",
+   "igual": true,
+   "diferenca": ""
+  },
+  {
+   "item": "Norte: votos já apurados com 6,0% das urnas",
+   "video": "20%",
+   "calculado": "20,3%",
+   "igual": true,
+   "diferenca": ""
+  },
+  {
+   "item": "Nordeste: votos já apurados com 6,0% das urnas",
+   "video": "4%",
+   "calculado": "4,4%",
+   "igual": true,
+   "diferenca": ""
+  },
+  {
+   "item": "Sudeste: votos já apurados com 6,0% das urnas",
+   "video": "2%",
+   "calculado": "1,5%",
+   "igual": true,
+   "diferenca": ""
+  },
+  {
+   "item": "Sul: votos já apurados com 50,1% das urnas",
+   "video": "75%",
+   "calculado": "75,2%",
+   "igual": true,
+   "diferenca": ""
+  },
+  {
+   "item": "Centro-Oeste: votos já apurados com 50,1% das urnas",
+   "video": "74%",
+   "calculado": "74,4%",
+   "igual": true,
+   "diferenca": ""
+  },
+  {
+   "item": "Norte: votos já apurados com 50,1% das urnas",
+   "video": "82%",
+   "calculado": "81,8%",
+   "igual": true,
+   "diferenca": ""
+  },
+  {
+   "item": "Nordeste: votos já apurados com 50,1% das urnas",
+   "video": "49%",
+   "calculado": "49,0%",
+   "igual": true,
+   "diferenca": ""
+  },
+  {
+   "item": "Sudeste: votos já apurados com 50,1% das urnas",
+   "video": "30%",
+   "calculado": "30,3%",
+   "igual": true,
+   "diferenca": ""
+  },
+  {
+   "item": "Sul: votos já apurados com 94,1% das urnas",
+   "video": "99%",
+   "calculado": "99,4%",
+   "igual": true,
+   "diferenca": ""
+  },
+  {
+   "item": "Centro-Oeste: votos já apurados com 94,1% das urnas",
+   "video": "99%",
+   "calculado": "98,8%",
+   "igual": true,
+   "diferenca": ""
+  },
+  {
+   "item": "Norte: votos já apurados com 94,1% das urnas",
+   "video": "99%",
+   "calculado": "98,7%",
+   "igual": true,
+   "diferenca": ""
+  },
+  {
+   "item": "Nordeste: votos já apurados com 94,1% das urnas",
+   "video": "96%",
+   "calculado": "96,2%",
+   "igual": true,
+   "diferenca": ""
+  },
+  {
+   "item": "Sudeste: votos já apurados com 94,1% das urnas",
+   "video": "89%",
+   "calculado": "88,5%",
+   "igual": true,
+   "diferenca": ""
+  },
+  {
+   "item": "Flávio no Sul",
+   "video": "cerca de 60%",
+   "calculado": "62,6%",
+   "igual": false,
+   "diferenca": "+2,6 pontos"
+  },
+  {
+   "item": "Flávio no Centro-Oeste",
+   "video": "cerca de 60%",
+   "calculado": "60,0%",
+   "igual": true,
+   "diferenca": ""
+  },
+  {
+   "item": "Lula no Nordeste",
+   "video": "69%",
+   "calculado": "69,4%",
+   "igual": true,
+   "diferenca": ""
+  },
+  {
+   "item": "Trocas de liderança em ordem sorteada",
+   "video": "nenhuma",
+   "calculado": "100,0% dos sorteios sem troca; no máximo 0",
+   "igual": true,
+   "diferenca": ""
+  },
+  {
+   "item": "Margem de erro com 10 urnas",
+   "video": "±9,8",
+   "calculado": "±10,32",
+   "igual": false,
+   "diferenca": "+0,5 ponto"
+  },
+  {
+   "item": "Margem de erro com 100 urnas",
+   "video": "±3,3",
+   "calculado": "±3,31",
+   "igual": true,
+   "diferenca": ""
+  },
+  {
+   "item": "Margem de erro com 1.000 urnas",
+   "video": "±0,9",
+   "calculado": "±1,06",
+   "igual": false,
+   "diferenca": "+0,2 ponto"
+  },
+  {
+   "item": "Margem de erro com 10.000 urnas",
+   "video": "±0,3",
+   "calculado": "±0,34",
+   "igual": true,
+   "diferenca": ""
+  },
+  {
+   "item": "Com 1.000 urnas o erro fica abaixo de um ponto",
+   "video": "sim",
+   "calculado": "±1,06",
+   "igual": false,
+   "diferenca": "95% dos sorteios ficam até esse valor, um pouco acima de 1 ponto"
+  },
+  {
+   "item": "1.000 urnas como parte do total",
+   "video": "0,2%",
+   "calculado": "0,20%",
+   "igual": true,
+   "diferenca": ""
+  }
+ ],
+ "oficial": [
+  {
+   "ano": 2010,
+   "turno": 1,
+   "nr": 13,
+   "urnas": 47651434,
+   "oficial": 47651434
+  },
+  {
+   "ano": 2010,
+   "turno": 1,
+   "nr": 45,
+   "urnas": 33132283,
+   "oficial": 33132283
+  },
+  {
+   "ano": 2010,
+   "turno": 2,
+   "nr": 13,
+   "urnas": 55752529,
+   "oficial": 55752529
+  },
+  {
+   "ano": 2010,
+   "turno": 2,
+   "nr": 45,
+   "urnas": 43711388,
+   "oficial": 43711388
+  },
+  {
+   "ano": 2014,
+   "turno": 1,
+   "nr": 13,
+   "urnas": 43267668,
+   "oficial": 43267668
+  },
+  {
+   "ano": 2014,
+   "turno": 1,
+   "nr": 45,
+   "urnas": 34897211,
+   "oficial": 34897211
+  },
+  {
+   "ano": 2014,
+   "turno": 2,
+   "nr": 13,
+   "urnas": 54501118,
+   "oficial": 54501118
+  },
+  {
+   "ano": 2014,
+   "turno": 2,
+   "nr": 45,
+   "urnas": 51041155,
+   "oficial": 51041155
+  },
+  {
+   "ano": 2018,
+   "turno": 1,
+   "nr": 17,
+   "urnas": 49277010,
+   "oficial": 49277010
+  },
+  {
+   "ano": 2018,
+   "turno": 1,
+   "nr": 13,
+   "urnas": 31342051,
+   "oficial": 31342051
+  },
+  {
+   "ano": 2018,
+   "turno": 2,
+   "nr": 17,
+   "urnas": 57797847,
+   "oficial": 57797847
+  },
+  {
+   "ano": 2018,
+   "turno": 2,
+   "nr": 13,
+   "urnas": 47040906,
+   "oficial": 47040906
+  },
+  {
+   "ano": 2022,
+   "turno": 1,
+   "nr": 13,
+   "urnas": 57259504,
+   "oficial": 57259504
+  },
+  {
+   "ano": 2022,
+   "turno": 1,
+   "nr": 22,
+   "urnas": 51072345,
+   "oficial": 51072345
+  },
+  {
+   "ano": 2022,
+   "turno": 2,
+   "nr": 13,
+   "urnas": 60345999,
+   "oficial": 60345999
+  },
+  {
+   "ano": 2022,
+   "turno": 2,
+   "nr": 22,
+   "urnas": 58206354,
+   "oficial": 58206354
+  },
+  {
+   "ano": 2026,
+   "turno": 1,
+   "nr": 22,
+   "urnas": 56104503,
+   "oficial": 56104503
+  },
+  {
+   "ano": 2026,
+   "turno": 1,
+   "nr": 13,
+   "urnas": 53879538,
+   "oficial": 53879538
+  },
+  {
+   "ano": 2026,
+   "turno": 2,
+   "nr": 13,
+   "urnas": 64256232,
+   "oficial": 64256232
+  },
+  {
+   "ano": 2026,
+   "turno": 2,
+   "nr": 22,
+   "urnas": 59826041,
+   "oficial": 59826041
+  }
+ ],
+ "marcos": [
+  {
+   "ano": 2010,
+   "turno": 1,
+   "hora": "21h32",
+   "tipo": "publicacao",
+   "base": "urnas",
+   "urnas": 99.89,
+   "fonte": "Agência Brasil",
+   "data": "03/10/2010",
+   "oficial": false,
+   "url": "https://memoria.ebc.com.br/agenciabrasil/noticia/2010-10-03/dilma-e-serra-decidem-eleicao-presidencial-no-segundo-turno",
+   "valores": {
+    "13": 46.89,
+    "45": 32.62
+   },
+   "ordem": "estimada",
+   "x": 100.0,
+   "hora_curva": null,
+   "curva": {
+    "13": 46.906,
+    "45": 32.614
+   }
+  },
+  {
+   "ano": 2010,
+   "turno": 2,
+   "hora": "18h59",
+   "tipo": "publicacao",
+   "base": "urnas",
+   "urnas": 90.3,
+   "fonte": "Agência Brasil",
+   "data": "31/10/2010",
+   "oficial": false,
+   "nota": "Sul, Sudeste e Centro-Oeste com mais de 90% das urnas; Norte e Nordeste com mais de 75%",
+   "url": "https://memoria.ebc.com.br/agenciabrasil/noticia/2010-10-31/com-90-das-urnas-apuradas-dilma-tem-55-dos-votos-e-serra-44",
+   "valores": {
+    "13": 55.26,
+    "45": 44.74
+   },
+   "ordem": "estimada",
+   "x": 90.368,
+   "hora_curva": null,
+   "curva": {
+    "13": 55.861,
+    "45": 44.139
+   }
+  },
+  {
+   "ano": 2014,
+   "turno": 1,
+   "hora": null,
+   "tipo": "publicacao",
+   "base": "urnas",
+   "urnas": 94,
+   "fonte": "Diario de Cuyo",
+   "data": "05/10/2014",
+   "oficial": false,
+   "url": "https://diariodecuyo.com.ar/mundo/Dilma-y-Neves-se-disputaran-la-presidencia-de-Brasil-en-el-ballotage-20141005-0002.html",
+   "valores": {
+    "13": 41.08,
+    "45": 34.2
+   },
+   "ordem": "estimada",
+   "x": 94.12,
+   "hora_curva": null,
+   "curva": {
+    "13": 40.845,
+    "45": 34.253
+   }
+  },
+  {
+   "ano": 2014,
+   "turno": 1,
+   "hora": "20h59",
+   "tipo": "publicacao",
+   "base": "urnas",
+   "urnas": 96,
+   "fonte": "Agência Brasil",
+   "data": "05/10/2014",
+   "oficial": false,
+   "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2014-10/dilma-ganha-no-norte-e-nordeste-aecio-fica-na-frente-nas-outras-regioes",
+   "valores": {
+    "13": 41.23,
+    "45": 33.96
+   },
+   "ordem": "estimada",
+   "x": 96.122,
+   "hora_curva": null,
+   "curva": {
+    "13": 41.056,
+    "45": 34.027
+   }
+  },
+  {
+   "ano": 2014,
+   "turno": 2,
+   "hora": "17h05",
+   "tipo": "contagem",
+   "base": "hora",
+   "urnas": null,
+   "fonte": "CNN Brasil",
+   "data": "2021",
+   "oficial": false,
+   "url": "https://www.cnnbrasil.com.br/politica/parciais-nao-mostram-inversoes-entre-dilma-e-aecio-apontadas-por-bolsonaro/",
+   "valores": {
+    "13": 32.3,
+    "45": 67.7
+   },
+   "ordem": "oficial",
+   "x": 0.132,
+   "hora_curva": "17h05",
+   "curva": {
+    "13": 32.3,
+    "45": 67.7
+   }
+  },
+  {
+   "ano": 2014,
+   "turno": 2,
+   "hora": "18h32",
+   "tipo": "contagem",
+   "base": "hora",
+   "urnas": null,
+   "fonte": "O Tempo",
+   "data": "02/10/2022",
+   "oficial": false,
+   "url": "https://www.otempo.com.br/eleicoes/em-2014-dilma-virou-resultado-das-eleicoes-sobre-aecio-neves-as-19h32-1.2743860",
+   "valores": {
+    "13": 44.56,
+    "45": 55.4
+   },
+   "ordem": "oficial",
+   "x": 56.905,
+   "hora_curva": "18h32",
+   "curva": {
+    "13": 44.555,
+    "45": 55.445
+   }
+  },
+  {
+   "ano": 2014,
+   "turno": 2,
+   "hora": "19h32",
+   "tipo": "contagem",
+   "base": "hora",
+   "urnas": null,
+   "fonte": "TSE, tabela oficial",
+   "data": "29/07/2021",
+   "oficial": true,
+   "nota": "única troca de liderança da noite",
+   "url": "https://www.tse.jus.br/comunicacao/noticias/2021/Julho/fato-ou-boato-e-falsa-a-planilha-que-mostra-inversoes-entre-aecio-neves-e-dilma-rousseff-no-2o-turno-de-2014",
+   "valores": {
+    "13": 50.05
+   },
+   "ordem": "oficial",
+   "x": 89.572,
+   "hora_curva": "19h32",
+   "curva": {
+    "13": 50.047,
+    "45": 49.953
+   }
+  },
+  {
+   "ano": 2014,
+   "turno": 2,
+   "hora": "19h32",
+   "tipo": "contagem",
+   "base": "hora",
+   "urnas": 88.9,
+   "fonte": "Diário do Nordeste",
+   "data": "26/10/2014",
+   "oficial": false,
+   "nota": "Dilma passa Aécio com 88,9% dos votos apurados",
+   "url": "https://diariodonordeste.verdesmares.com.br/ultima-hora/pais/dilma-so-ultrapassou-aecio-com-88-9-dos-votos-apurados-1.1136216",
+   "valores": {},
+   "ordem": "oficial",
+   "x": 89.572,
+   "hora_curva": "19h32",
+   "curva": {
+    "13": 50.047,
+    "45": 49.953
+   }
+  },
+  {
+   "ano": 2014,
+   "turno": 2,
+   "hora": "20h00",
+   "tipo": "contagem",
+   "base": "hora",
+   "urnas": 95,
+   "fonte": "Bahia Notícias",
+   "data": "2014",
+   "oficial": false,
+   "url": "https://www.bahianoticias.com.br/noticia/162414-aecio-liderou-disputa-por-presidencia-ate-quase-90-da-apuracao",
+   "valores": {},
+   "ordem": "oficial",
+   "x": 95.744,
+   "hora_curva": "20h00",
+   "curva": {
+    "13": 51.039,
+    "45": 48.961
+   }
+  },
+  {
+   "ano": 2014,
+   "turno": 2,
+   "hora": "20h14",
+   "tipo": "publicacao",
+   "base": "urnas",
+   "urnas": 96.29,
+   "fonte": "Agência Brasil",
+   "data": "26/10/2014",
+   "oficial": false,
+   "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2014-10/com-96-das-urnas-apuradas-eleicao-para-presidente-segue-indefinida",
+   "valores": {
+    "13": 51.18,
+    "45": 48.82
+   },
+   "ordem": "oficial",
+   "x": 96.322,
+   "hora_curva": "20h06",
+   "curva": {
+    "13": 51.145,
+    "45": 48.855
+   }
+  },
+  {
+   "ano": 2014,
+   "turno": 2,
+   "hora": "20h27",
+   "tipo": "contagem",
+   "base": "hora",
+   "urnas": 98,
+   "fonte": "Bahia Notícias",
+   "data": "2014",
+   "oficial": false,
+   "url": "https://www.bahianoticias.com.br/noticia/162414-aecio-liderou-disputa-por-presidencia-ate-quase-90-da-apuracao",
+   "valores": {
+    "13": 51.45
+   },
+   "ordem": "oficial",
+   "x": 98.121,
+   "hora_curva": "20h27",
+   "curva": {
+    "13": 51.439,
+    "45": 48.561
+   }
+  },
+  {
+   "ano": 2018,
+   "turno": 1,
+   "hora": "20h30",
+   "tipo": "contagem",
+   "base": "urnas",
+   "urnas": 92.5,
+   "fonte": "TSE no X",
+   "data": "07/10/2018",
+   "oficial": true,
+   "url": "https://x.com/TSEjusbr/status/1049078659750014977",
+   "valores": {
+    "17": 47.0,
+    "13": 27.9
+   },
+   "ordem": "real",
+   "x": 92.619,
+   "hora_curva": "20h23",
+   "curva": {
+    "17": 46.994,
+    "13": 27.995
+   }
+  },
+  {
+   "ano": 2018,
+   "turno": 1,
+   "hora": "20h56",
+   "tipo": "publicacao",
+   "base": "urnas",
+   "urnas": 96,
+   "fonte": "Banda B",
+   "data": "07/10/2018",
+   "oficial": false,
+   "url": "https://www.bandab.com.br/politica/com-68-de-secoes-apuradas-bolsonaro-tem-4842-e-haddad-2656/",
+   "valores": {
+    "17": 46.7,
+    "13": 28.37
+   },
+   "ordem": "real",
+   "x": 96.122,
+   "hora_curva": "20h55",
+   "curva": {
+    "17": 46.653,
+    "13": 28.437
+   }
+  },
+  {
+   "ano": 2018,
+   "turno": 2,
+   "hora": "19h18",
+   "tipo": "contagem",
+   "base": "urnas",
+   "urnas": 94.44,
+   "fonte": "TSE, ministra Rosa Weber, via Agência Brasil",
+   "data": "28/10/2018",
+   "oficial": true,
+   "nota": "momento em que o resultado foi definido",
+   "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2018-10/com-100-das-urnas-apuradas-bolsonaro-teve-577-milhoes-de-votos",
+   "valores": {},
+   "ordem": "real",
+   "x": 94.496,
+   "hora_curva": "19h19",
+   "curva": {
+    "17": 55.544,
+    "13": 44.456
+   }
+  }
+ ]
+}

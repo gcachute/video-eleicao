@@ -1,0 +1,6 @@
+.venv/
+dados/brutos/
+dados/processados/
+__pycache__/
+*.log
+.claude/

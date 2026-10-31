@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A ordem das urnas</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<main class="viz-root">
+  <header class="topo">
+    <h1>A ordem das urnas</h1>
+    <p>A mesma apuração vista de dois jeitos: na ordem em que as urnas chegaram e em ordem sorteada. Dez turnos de cinco eleições para presidente, com dados do TSE. A leitura parte de um vídeo do perfil Ciência Visual sobre a apuração do 2º turno de 2026, refeito aqui número a número.</p>
+  </header>
+
+  <section class="bloco proposito" aria-label="Intenção e medidas desta leitura">
+    <div>
+      <h2>Qual a intenção desta leitura</h2>
+      <p>Separar duas coisas que aparecem juntas na parcial da apuração: o voto de cada urna, que não muda depois de contado, e a ordem em que as urnas chegam, que depende de onde elas estão.</p>
+      <p>Para isso, a mesma apuração é somada duas vezes, com as mesmas urnas: uma na ordem de chegada e outra em ordem sorteada. O que muda entre as duas contas vem só da ordem.</p>
+    </div>
+    <div>
+      <h2>O que ela mede</h2>
+      <ul>
+        <li><b>Trocas de liderança:</b> quantas vezes o primeiro e o segundo colocados invertem de posição durante a soma.</li>
+        <li><b>Distância do resultado final:</b> o quanto a parcial se afasta do número final em cada ponto da apuração.</li>
+        <li><b>Composição da parcial:</b> quanto dos votos de cada região já tinha entrado em cada momento.</li>
+        <li><b>Tamanho da amostra:</b> a margem de erro de um sorteio de 10, 100, 1.000 e 10.000 urnas.</li>
+      </ul>
+      <p class="limite">Não mede a segurança da urna nem a preferência do eleitorado ao longo da noite: mede a soma do que já foi contado.</p>
+    </div>
+    <div class="entendimento">
+      <h2>O entendimento que se tem ao analisar assim</h2>
+      <ul>
+        <li><b>A parcial é a soma de quem já chegou.</b> Ela não é uma prévia do resultado final: representa as regiões que já entraram na conta, e não o país inteiro.</li>
+        <li><b>A liderança pode trocar sem nenhum voto mudar de lado.</b> Quando entram urnas de uma região que votou diferente da anterior, a soma muda de direção, mesmo com o voto de cada urna fixo.</li>
+        <li><b>O sorteio mostra o que vem da ordem.</b> Com as urnas embaralhadas, todas as regiões entram misturadas desde o início. A diferença entre a curva de chegada e a sorteada é o efeito da ordem.</li>
+        <li><b>Importa mais como as urnas são escolhidas do que quantas são.</b> Muitas urnas de uma só região podem ficar longe do final, e poucas sorteadas podem chegar perto. Em estatística, isso se chama amostra enviesada.</li>
+      </ul>
+    </div>
+  </section>
+
+  <nav class="filtro" aria-label="Escolha o turno" id="filtro"></nav>
+  <p class="aviso" id="aviso"></p>
+  <section class="tiles" id="tiles" aria-label="Resumo do turno"></section>
+
+  <section class="bloco">
+    <h2>A apuração, urna por urna</h2>
+    <p class="sub">Percentual dos votos válidos somados até cada ponto. Os dois gráficos usam exatamente as mesmas urnas.</p>
+    <div class="legenda" id="legenda"></div>
+    <div class="par">
+      <figure><figcaption id="tit-chegada"></figcaption><div class="grafico" id="g-chegada"></div></figure>
+      <figure><figcaption>Em ordem sorteada</figcaption><div class="grafico" id="g-sorteada"></div></figure>
+    </div>
+    <div class="player">
+      <button id="tocar" type="button" aria-label="Reproduzir a apuração">▶</button>
+      <input id="progresso" type="range" min="0" max="100" step="0.25" value="100" aria-label="Percentual de urnas apuradas">
+      <output id="progresso-txt"></output>
+    </div>
+    <details class="tabela-vista"><summary>Ver em tabela</summary><div id="tabela-curva"></div></details>
+  </section>
+
+  <section class="bloco">
+    <h2>De onde vinham as urnas em cada momento</h2>
+    <p class="sub">Cada ponto é um município. Ele acende quando metade das urnas dele chegou. A cor é de quem teve mais votos ali no resultado final.</p>
+    <div class="par par-mapa">
+      <figure><div class="mapa-caixa"><canvas id="mapa" role="img" aria-label="Mapa dos municípios por momento da apuração"></canvas></div></figure>
+      <figure><figcaption>Votos de cada região já apurados</figcaption><div id="regioes"></div></figure>
+    </div>
+  </section>
+
+  <section class="bloco">
+    <h2>Quantas urnas sorteadas bastam</h2>
+    <p class="sub" id="sub-amostra"></p>
+    <div id="amostras"></div>
+  </section>
+
+  <section class="bloco">
+    <h2>Os dez turnos lado a lado</h2>
+    <p class="sub">Diferença entre o primeiro e o segundo colocado durante a apuração, em pontos percentuais. Acima da linha, o vencedor do turno está na frente.</p>
+    <div class="multiplos" id="multiplos"></div>
+    <div class="rolagem"><table id="tabela-turnos"></table></div>
+  </section>
+
+  <section class="bloco" id="registros">
+    <h2>O que foi registrado na época</h2>
+    <p class="sub">Hora, urnas e percentuais publicados nas noites de eleição, ao lado da curva desta tela no mesmo ponto. Quando há hora de contagem, a comparação é por hora; nos demais casos, por percentual de urnas. A hora marcada como publicação é a da matéria, e a parcial pode ser de alguns minutos antes.</p>
+    <div class="fontes-chave">
+      <div>
+        <strong>2º turno de 2014: tabela oficial do TSE</strong>
+        <p>333 parciais, das 17h01 às 02h13, com votos de Dilma e de Aécio. Publicada pelo TSE em 2021 e transcrita aqui. Uma única troca de liderança, às 19h32.</p>
+        <p><a class="fonte oficial" href="https://web.archive.org/web/20210731123238/https://www.tse.jus.br/imprensa/noticias-tse/arquivos/evolucao-da-totalizacao-para-presidente-no-2o-turno-de-2014/at_download/file" target="_blank" rel="noopener">Tabela do TSE, cópia arquivada</a> · <a class="fonte oficial" href="https://www.tse.jus.br/comunicacao/noticias/2021/Julho/fato-ou-boato-e-falsa-a-planilha-que-mostra-inversoes-entre-aecio-neves-e-dilma-rousseff-no-2o-turno-de-2014" target="_blank" rel="noopener">Nota do TSE</a></p>
+      </div>
+      <div>
+        <strong>2018: hora de cada urna no próprio TSE</strong>
+        <p>O arquivo Detalhe da apuração por seção traz a hora da primeira totalização de cada urna. Às 19h18 do 2º turno ela soma 94,44% das urnas, o número anunciado pela presidente do TSE naquela noite.</p>
+        <p><a class="fonte oficial" href="https://dadosabertos.tse.jus.br/dataset/resultados-2018" target="_blank" rel="noopener">Resultados 2018, dados abertos do TSE</a></p>
+      </div>
+    </div>
+    <div class="rolagem"><table id="tabela-marcos"></table></div>
+    <p class="sub nota-tabela">Em 2010 e no 1º turno de 2014 não foi encontrada tabela oficial nem hora por urna: só há os registros acima.</p>
+  </section>
+
+  <section class="bloco" id="divergencias">
+    <h2>Onde os dados divergem do vídeo</h2>
+    <p class="sub" id="sub-divergencias"></p>
+    <div class="rolagem"><table id="tabela-divergencias"></table></div>
+    <details class="tabela-vista"><summary id="resumo-iguais">Ver os itens iguais ao vídeo</summary><div class="rolagem"><table id="tabela-video"></table></div></details>
+  </section>
+
+  <section class="bloco">
+    <h2>Conferência com o total oficial</h2>
+    <p class="sub">A soma das urnas ao lado do total oficial do TSE, para os dois primeiros colocados de cada turno. Os 5.246 votos do número 28 no 1º turno de 2026 estão nas urnas e não constam da totalização, por isso não entram como válidos.</p>
+    <div class="rolagem"><table id="tabela-oficial"></table></div>
+  </section>
+
+  <section class="bloco">
+    <h2>Teste da ordem estimada</h2>
+    <p class="sub">A estimativa comparada com dois casos em que a curva verdadeira é conhecida. A curva até se aproxima, mas o momento das viradas não: por isso a tela não mostra trocas de liderança nem distância do final nos turnos estimados.</p>
+    <div class="par" id="teste"></div>
+  </section>
+
+  <section class="bloco como-ler">
+    <h2>Como ler</h2>
+    <dl>
+      <dt>Ordem de chegada real</dt>
+      <dd>Em 2022 e 2026 cada boletim de urna traz a hora em que foi recebido. Em 2018 a hora usada é a da primeira totalização de cada urna. As urnas são somadas nessa ordem.</dd>
+      <dt>Parciais oficiais</dt>
+      <dd>No 2º turno de 2014 não há hora por urna, mas o TSE publicou a tabela de parciais minuto a minuto. Ela mostra votos somados, e não urnas: por isso o eixo é o percentual dos votos válidos.</dd>
+      <dt>Ordem de chegada estimada</dt>
+      <dd>Em 2010 e no 1º turno de 2014 não há hora por urna nem tabela de parciais. Nesses turnos, e no mapa do 2º turno de 2014, cada urna recebe um momento de chegada sorteado entre os das urnas do mesmo município no mesmo turno de 2018. É uma simulação: mostra como seria aquela votação chegando no ritmo de 2018, e não o que apareceu na noite da eleição. O momento das trocas de liderança não é confiável, como mostra o teste acima.</dd>
+      <dt>Ordem sorteada</dt>
+      <dd>As mesmas urnas embaralhadas 2.000 vezes. A faixa cobre 95% desses sorteios e a linha é um deles.</dd>
+      <dt>Troca de liderança</dt>
+      <dd>Momento em que o primeiro e o segundo colocados invertem de posição na soma. Conta a partir de 1% das urnas e só quando a nova posição dura ao menos 0,1% das urnas. No primeiro turno a comparação é entre os dois mais votados.</dd>
+      <dt>Margem de erro da amostra</dt>
+      <dd>Distância do resultado final que 95% das 5.000 simulações não ultrapassaram, em pontos percentuais.</dd>
+      <dt>Em trânsito</dt>
+      <dd>Voto de quem estava fora da sua cidade no dia da eleição e pediu antes para votar para presidente em uma seção especial. Em 2010 o TSE registra esses votos em uma categoria própria. A partir de 2014 os arquivos não têm mais essa categoria.</dd>
+      <dt>Urna</dt>
+      <dd>Cada seção eleitoral conta uma vez. Seções com zero votos ficam de fora. A contagem aqui é do arquivo final do TSE, que pode diferir do que foi exibido ao vivo.</dd>
+      <dt>Fontes</dt>
+      <dd>TSE, Portal de Dados Abertos: Boletim de Urna (2022 e 2026), Votação por seção eleitoral (2010, 2014 e 2018), Detalhe da apuração por seção (2018), Votação por município e zona (conferência) e Locais de votação (posição dos municípios). TSE: tabela da evolução da totalização do 2º turno de 2014. Registros da época: ver a seção acima.</dd>
+    </dl>
+  </section>
+</main>
+<div class="dica" id="dica" hidden></div>
+<script src="app.js"></script>
+</body>
+</html>
